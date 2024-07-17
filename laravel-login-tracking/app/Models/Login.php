@@ -9,7 +9,6 @@ class Login extends Model
     use HasFactory;
 
     protected $fillable = ['user_id', 'login_at'];
-    // ปิดการใช้ timestamps
     public $timestamps = false;
 }
 
